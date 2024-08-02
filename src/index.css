@@ -1,0 +1,52 @@
+body {
+  /* background: radial-gradient(#0e1a5d, #070d2e); */
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'typewriter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  src: url('/fonts/American-Traditional/AmericanTraditional.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'inter' , system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  src: url('/fonts/Inter/inter.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'inter' , system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  src: url('/fonts/Inter/inter-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f6f6f7;
+  font-family: 'typewriter';
+}
+
+p {
+  color: #f6f6f7;
+  font-family: 'inter';
+}
+
+.typing {
+  border-right: 1px solid #f6f6f7;
+  animation: 
+    blinking 1s steps(1, end) infinite
+}
+
+@keyframes blinking {
+  0% { border-color: transparent }
+  50% { border-color: #f6f6f7 }
+  100% { border-color: transparent }
+}
