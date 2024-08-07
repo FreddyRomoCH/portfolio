@@ -19,6 +19,10 @@ export default {
       backgroundImage: {
         'home-radial': 'radial-gradient(#0e1a5d, #070d2e)',
       },
+      fontFamily: {
+        'inter': ['inter', 'system-ui'],
+        'typewriter': ['typewriter', 'system-ui'],
+      }
     },
   },
   plugins: [],
