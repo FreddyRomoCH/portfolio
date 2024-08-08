@@ -9,7 +9,7 @@ export const projects = [
     {
         id: 2,
         title: "My Recipes",
-        description: "Web application to store recipes.",
+        description: "Web Site to store recipes.",
         image: "/images/projects/my-recipes.png",
         url: ""
     },

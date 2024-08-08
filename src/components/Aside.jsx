@@ -2,7 +2,7 @@ import { Logo } from "./Aside/Logo";
 import { Menu } from "./Aside/Menu";
 import { Social } from "./Aside/Social";
 
-export function Aside({ isMobileMenuOpen }) {
+export function Aside({ isMobileMenuOpen, onClickOpenMenu }) {
   return (
     <aside
       className={`${
@@ -10,7 +10,7 @@ export function Aside({ isMobileMenuOpen }) {
       } fixed flex z-20 md:relative col-span-3 w-full bg-secondary900 md:flex flex-col justify-between h-full transition-all ease-linear duration-500 md:translate-x-0 px-10 md:px-0`}
     >
       <Logo showIn="desktop" />
-      <Menu />
+      <Menu onClickOpenMenu={onClickOpenMenu} />
       <Social />
     </aside>
   );

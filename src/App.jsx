@@ -21,7 +21,10 @@ function App() {
       >
         Menu
       </div>
-      <Home isMobileMenuOpen={isMobileMenuOpen} />
+      <Home
+        isMobileMenuOpen={isMobileMenuOpen}
+        onClickOpenMenu={handleClickOpenMenu}
+      />
       <About />
       <Projects />
     </>

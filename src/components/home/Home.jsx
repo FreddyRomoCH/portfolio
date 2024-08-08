@@ -1,19 +1,15 @@
 import "@github/typing-effect-element";
 import { Aside } from "../Aside";
 
-export function Home({ isMobileMenuOpen }) {
+export function Home({ isMobileMenuOpen, onClickOpenMenu }) {
   return (
     <div className="relative bg-home-radial md:grid md:grid-cols-12 h-screen w-screen items-center px-0 md:px-8 2xl:px-10 md:gap-5">
-      <Aside isMobileMenuOpen={isMobileMenuOpen} />
+      <Aside
+        isMobileMenuOpen={isMobileMenuOpen}
+        onClickOpenMenu={onClickOpenMenu}
+      />
+
       <main className="relative flex flex-col justify-center items-center h-screen w-full md:col-span-9">
-        {/* <div
-          onClick={handleClickOpenMenu}
-          className={`menu-mobile w-28- md:hidden bg-primary400 text-secondary900 py-1 px-5 rounded-b-md -rotate-90 fixed -left-10 -mt-6 z-30 pl-10 uppercase before:content-[url('/images/arrow.svg')] before:inline-block ${
-            isMobileMenuOpen ? "before:-rotate-90" : "before:rotate-90"
-          } before:w-[25px] before:h-[22px] before:absolute before:left-3 before:top-[6px]`}
-        >
-          Menu
-        </div> */}
         <div className="grow flex flex-col justify-center items-center text-center">
           <typing-effect
             data-lines={JSON.stringify([
@@ -30,9 +26,12 @@ export function Home({ isMobileMenuOpen }) {
             </span>
           </typing-effect>
 
-          <button className="text-neutral50 px-7 bg-primary400 hover:bg-primary500 py-2 2xl:py-3 w-36 rounded mt-5">
-            Contact me
-          </button>
+          <a
+            href="#projects"
+            className="text-neutral50 px-7 w-auto bg-primary400 hover:bg-primary500 py-2 2xl:py-3 rounded mt-5"
+          >
+            Check out my projects
+          </a>
         </div>
 
         <div className="down text-base flex flex-col justify-center items-center mb-8 animate-bounce">
