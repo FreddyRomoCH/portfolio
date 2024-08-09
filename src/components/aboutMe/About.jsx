@@ -12,8 +12,8 @@ export function About() {
         <p className="text-sm md:text-xl font-inter font-thin text-neutral50 text-center md:text-left mb-8">
           Hi! My name is Freddy Romo And I am a Web Developer with more than 4
           years of working experience. I am passionated building web sites using
-          different technologies. Spanish is my native language but quite fluent
-          in English. Currently learning new technologies like ReactJS,
+          different technologies. Spanish is my native language but fluent in
+          English. Currently learning new technologies like ReactJS,
           TailwindCSS, Astro and more.
         </p>
         <ul className="flex flex-col md:flex-row justify-between gap-4 mb-8">
