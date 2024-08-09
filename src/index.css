@@ -1,7 +1,7 @@
 body {
-  /* background: radial-gradient(#0e1a5d, #070d2e); */
+  background: radial-gradient(#0e1a5d, #070d2e);
   margin: 0;
-  display: flex;
+  /* display: flex; */
   position: relative;
   place-items: center;
   min-width: 320px;

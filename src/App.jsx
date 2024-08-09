@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { Home } from "./components/home/Home";
 import { About } from "./components/aboutMe/About";
+import { Routes, Route } from "react-router-dom";
+import { SingleProject } from "./components/SingleProject";
+import { Aside } from "./components/Aside";
 import { Projects } from "./components/projects/Projects";
+
 import "./App.css";
 
 function App() {
@@ -21,12 +25,19 @@ function App() {
       >
         Menu
       </div>
-      <Home
-        isMobileMenuOpen={isMobileMenuOpen}
-        onClickOpenMenu={handleClickOpenMenu}
-      />
-      <About />
-      <Projects />
+
+      <div className="absolute md:relative bg-home-radial md:grid md:grid-cols-12 min-h-screen w-screen items-center px-0 md:px-8 2xl:px-10 md:gap-5">
+        <Aside
+          isMobileMenuOpen={isMobileMenuOpen}
+          onClickOpenMenu={handleClickOpenMenu}
+        />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/my-projects/:id/:name" element={<SingleProject />} />
+        </Routes>
+      </div>
     </>
   );
 }

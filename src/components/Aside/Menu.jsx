@@ -1,19 +1,19 @@
 import { MenuButton } from "./MenuButton";
 
 export function Menu({ onClickOpenMenu }) {
-  const CV = "files/Freddy-Romo-CV.pdf";
+  const CV = "files/Freddy-Romo-Resume.pdf";
 
   return (
     <section className="menu">
       <ul className="flex flex-col justify-between gap-5">
         <MenuButton
           title="About"
-          href="#about-me"
+          href="/about"
           onClickOpenMenu={onClickOpenMenu}
         />
         <MenuButton
           title="Projects"
-          href="#projects"
+          href="/projects"
           onClickOpenMenu={onClickOpenMenu}
         />
         <MenuButton
@@ -21,11 +21,7 @@ export function Menu({ onClickOpenMenu }) {
           href="#contact"
           onClickOpenMenu={onClickOpenMenu}
         />
-        <MenuButton
-          title="Download my CV"
-          href={CV}
-          onClickOpenMenu={onClickOpenMenu}
-        />
+        <MenuButton title="My CV" href={CV} onClickOpenMenu={onClickOpenMenu} />
       </ul>
     </section>
   );
