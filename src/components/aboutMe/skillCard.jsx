@@ -1,5 +1,4 @@
 export function SkillCard({ skill, image }) {
-  console.log(skill, image);
   return (
     <li className="flex flex-row items-center justify-center gap-1 border-[1px] border-primary500 rounded-xl px-2 py-1">
       {image && (
