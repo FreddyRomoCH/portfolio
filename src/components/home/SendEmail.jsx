@@ -1,6 +1,6 @@
 import { useId, useRef, useEffect, useState } from "react";
 
-export function SendEmail({ onClickOpenMenu }) {
+export function SendEmail() {
   const emailRef = useRef();
   const inputId = useId();
   const copyIcon = "/images/copy.png";
@@ -12,7 +12,6 @@ export function SendEmail({ onClickOpenMenu }) {
     if (isEmailCopied) {
       copiedText = setTimeout(() => {
         setIsEmailCopied(false);
-        onClickOpenMenu();
       }, 1500);
     }
 
@@ -34,23 +33,24 @@ export function SendEmail({ onClickOpenMenu }) {
   };
 
   return (
-    <div className="absolute flex flex-col justify-between items-start gap-1 top-0 bg-primary500 text-secondary900 font-thin font-inter text-base p-2 w-full md:w-auto z-20 transition-all duration-500 ease-linear left-0 md:group-hover:left-full invisible group-hover:visible opacity-0 group-hover:opacity-100">
+    <div className="absolute flex flex-col justify-center items-start gap-1 top-0 bg-primary500 text-secondary900 font-thin font-inter text-base p-1 w-full md:w-full h-full z-20 left-0">
       <label
         htmlFor={inputId}
-        className={`text-base font-typewriter font-medium ${
-          isEmailCopied &&
-          "after:content-['Copied'] after:absolute after:right-1 after:bg-secondary900 after:text-neutral50 after:font-thin after:text-xs after:rounded-md after:p-1"
+        className={`text-xs font-typewriter font-medium after:content-['Copied'] after:absolute after:top-0 after:right-0 after:bg-secondary900 after:text-neutral50 after:font-thin after:text-xs after:rounded-md after:p-2 after:transition-transform after:duration-[1.5s] after:ease-in ${
+          !isEmailCopied
+            ? "after:translate-y-0 after:opacity-0"
+            : "after:-translate-y-4 after:opacity-100"
         }`}
       >
         Send me an Email
       </label>
-      <div className="flex flex-row justify-between items-center w-full md:w-auto gap-2">
+      <div className="relative flex flex-row justify-between items-center w-full gap-1">
         <input
           ref={emailRef}
           type="text"
           name={inputId}
           defaultValue="fredyromochavez@gmail.com"
-          className="px-3 py-1 rounded-md w-full md:w-64"
+          className="px-3 py-1 rounded-md w-full text-sm font-thin"
         />
         <picture>
           <img

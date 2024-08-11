@@ -9,7 +9,7 @@ export function Home() {
           <typing-effect
             data-lines={JSON.stringify([
               "- Hi! My name is Freddy.",
-              "- I'm Web Developer.",
+              "- I'm a Web Developer.",
             ])}
           >
             <span
