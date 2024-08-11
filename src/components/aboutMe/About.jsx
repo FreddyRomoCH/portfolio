@@ -5,7 +5,7 @@ import { experience } from "../../services/experience";
 export function About() {
   return (
     <>
-      <section className="col-span-9 md:text-center px-4 lg:px-10 my-8">
+      <section className="md:col-span-9 md:text-center px-4 lg:px-10 my-8">
         <h2 className="text-2xl font-medium md:text-4xl 2xl:text-5xl text-neutral50 text-center md:leading-[3.5rem] mb-5 font-typewriter">
           About me
         </h2>

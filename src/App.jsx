@@ -26,11 +26,13 @@ function App() {
         Menu
       </div>
 
-      <div className="absolute md:relative bg-home-radial md:grid md:grid-cols-12 min-h-screen w-screen items-center px-0 md:px-8 2xl:px-10 md:gap-5">
-        <Aside
-          isMobileMenuOpen={isMobileMenuOpen}
-          onClickOpenMenu={handleClickOpenMenu}
-        />
+      <div className="relative bg-home-radial md:grid md:grid-cols-12 min-h-screen w-screen items-center px-0 md:px-8 2xl:px-10 md:gap-5">
+        <div className="relative col-span-3">
+          <Aside
+            isMobileMenuOpen={isMobileMenuOpen}
+            onClickOpenMenu={handleClickOpenMenu}
+          />
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
