@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export function Projects() {
   useLayoutEffect(() => {
-    window.scrollTo(0, 0);
+    isAllProjects ? window.scrollTo(0, 500) : window.scrollTo(0, 0);
   });
 
   const [isAllProjects, setIsAllProjects] = useState(false);

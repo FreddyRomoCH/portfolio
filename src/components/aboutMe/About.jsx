@@ -1,8 +1,12 @@
 import { Experience } from "./Experience";
 import { Skills } from "./Skills";
 import { experience } from "../../services/experience";
+import { useLayoutEffect } from "react";
 
 export function About() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <section className="md:col-span-9 md:text-center px-4 lg:px-10 my-8">
