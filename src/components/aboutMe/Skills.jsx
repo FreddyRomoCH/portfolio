@@ -14,9 +14,13 @@ export function Skills({ title }) {
         {title}
       </h3>
       <ul className="text-primary500 flex flex-row gap-2 flex-wrap items-center justify-center mb-6 font-inter px-1">
-        {skills[title].map((skill) => (
-          <SkillCard key={skill} skill={skill} />
-        ))}
+        {title !== "Tech Skills"
+          ? skills[title].map((skill) => (
+              <SkillCard key={skill} skill={skill} />
+            ))
+          : skills[title].map(({ tech, image }) => (
+              <SkillCard key={tech} skill={tech} image={image} />
+            ))}
       </ul>
     </div>
   );
