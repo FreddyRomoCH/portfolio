@@ -11,10 +11,10 @@ export function MenuButton({ title, href, onClickOpenMenu, isActive }) {
 
   return (
     <li
-      className={`relative border-[1px] border-primary400 hover:border-primary600 hover:text-primary600 font-normal text-xl 2xl:text-2xl w-full text-center ${
+      className={`relative border-[1px] border-primary400 hover:border-primary600 font-normal text-xl 2xl:text-2xl w-full text-center ${
         isActive
           ? "bg-primary500 text-neutral50 hover:bg-primary600 hover:text-neutral50"
-          : "text-primary400 "
+          : "text-primary400 hover:text-primary600 "
       }`}
     >
       {title === "My CV" ? (
