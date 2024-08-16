@@ -1,8 +1,13 @@
-# React + Vite
+# Portfolio Web | freddyromo.dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/FreddyRomoCH/portfolio)
 
-Currently, two official plugins are available:
+![just-the-basics](https://github.com/FreddyRomoCH/Guess-Who-BoardGame/blob/main/public/screenshots/portfolio-home.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project
+
+Portfolio web to have all my projects.
+
+![just-the-basics](https://github.com/FreddyRomoCH/Guess-Who-BoardGame/blob/main/public/screenshots/portfolio-about.png)
+![just-the-basics](https://github.com/FreddyRomoCH/Guess-Who-BoardGame/blob/main/public/screenshots/portfolio-projects.png)
+![just-the-basics](https://github.com/FreddyRomoCH/Guess-Who-BoardGame/blob/main/public/screenshots/portfolio-project.png)
