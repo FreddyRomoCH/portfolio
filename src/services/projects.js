@@ -25,7 +25,7 @@ export const projects = [
         shortDescription: "Boardgame of guessing the character.",
         description: "Classic bordgame of guessing the character. Built with React and TailwindCSS. It uses UseContext to manage the state of the game.",
         image: "/images/projects/guess-who.png",
-        url: "https://guess-who-m59i.onrender.com/",
+        url: "https://guesswho.freddyromo.dev/",
         technologies: ["React", "TailwindCSS", "UseContext"],
         gitHub: "https://github.com/FreddyRomoCH/Guess-Who-BoardGame"
     }
