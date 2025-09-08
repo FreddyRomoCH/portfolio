@@ -28,5 +28,15 @@ export const projects = [
         url: "https://guesswho.freddyromo.dev/",
         technologies: ["React", "TailwindCSS", "UseContext"],
         gitHub: "https://github.com/FreddyRomoCH/Guess-Who-BoardGame"
+    },
+    {
+        id: 4,
+        title: "TO-DO list Vanilla JS",
+        shortDescription: "Simple TO-DO list built with Vanilla JS.",
+        description: "Simple TO-DO list built with Vanilla JS. It uses LocalStorage to store the tasks and allows to add, delete and mark tasks as completed.",
+        image: "/images/projects/todo-vanilla-js.png",
+        url: "https://todo-list-vanillajs.freddyromo.dev/",
+        technologies: ["JavaScript", "HTML", "CSS", "LocalStorage"],
+        gitHub: "https://github.com/FreddyRomoCH/todo-list-vanilla-js"
     }
 ]
