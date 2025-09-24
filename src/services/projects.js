@@ -13,7 +13,7 @@ export const projects = [
         id: 2,
         title: "My Recipes",
         shortDescription: "Web Site to store recipes (Still in progress).",
-        description: "Web Site built with React to store recipes. It uses React Router to navigate between pages and TailwindCSS for styling. In the future it will have backend to add recipes manually and a login system where you'll be able to manage your own recipes.",
+        description: "Web Site built with React to store recipes. It uses React Router to navigate between pages and TailwindCSS for styling. It connects to a back-end with NodeJS and to Supabase database to storage and manage all users and recipes created.",
         image: "/images/projects/my-recipes.png",
         url: "https://recipes.freddyromo.dev/",
         technologies: ["React", "TailwindCSS", "React Router", "UseContext", "API Fetch"],

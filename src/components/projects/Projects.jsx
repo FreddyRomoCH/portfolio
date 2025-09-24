@@ -35,7 +35,7 @@ export function Projects() {
         {isAllProjects ? "Projects" : "Latest Projects"}
       </h2>
 
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-3 justify-between items-start max-w-5xl mb-8">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(370px,1fr))] gap-3 justify-between items-start max-w-5xl mb-8">
         {isAllProjects ? allprojects : allprojects.slice(0, 2)}
       </div>
 
