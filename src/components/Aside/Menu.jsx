@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { MenuButton } from "./MenuButton";
 
 export function Menu({ onClickOpenMenu }) {
-  const CV = "files/Freddy-Romo-Resume.pdf";
+  const CV = "https://www.freddyromo.dev/files/Freddy-Romo-Resume.pdf";
 
   const url = useLocation();
   const currentSection = url.pathname.slice(1);
