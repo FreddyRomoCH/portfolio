@@ -13,7 +13,7 @@ export function About() {
         <h2 className="text-2xl font-medium md:text-4xl 2xl:text-5xl text-neutral50 text-center md:leading-[3.5rem] mb-5 font-typewriter">
           About me
         </h2>
-        <p className="text-sm md:text-xl font-inter font-thin text-neutral50 text-center md:text-left mb-8">
+        <p className="text-sm md:text-lg font-inter font-extralight text-neutral50 text-center md:text-left mb-8">
           Hi! My name is Freddy Romo and I am a Web Developer with more than 4
           years of working experience. I am passionated building web sites using
           different technologies. Spanish is my native language but I am also
