@@ -36,7 +36,7 @@ export function SendEmail() {
     <div className="absolute flex flex-col justify-center items-start gap-1 top-0 bg-primary500 text-secondary900 font-thin font-inter text-base p-1 w-full md:w-full h-full z-20 left-0">
       <label
         htmlFor={inputId}
-        className={`text-xs font-typewriter font-medium after:content-['Copied'] after:absolute after:top-0 after:right-0 after:bg-secondary900 after:text-neutral50 after:font-thin after:text-xs after:rounded-md after:p-2 after:transition-transform after:duration-[1.5s] after:ease-in ${
+        className={`text-xs font-inter font-medium after:content-['Copied'] after:absolute after:top-0 after:right-0 after:bg-secondary900 after:text-neutral50 after:font-thin after:text-xs after:rounded-md after:p-2 after:transition-transform after:duration-[1.5s] after:ease-in ${
           !isEmailCopied
             ? "after:translate-y-0 after:opacity-0"
             : "after:-translate-y-4 after:opacity-100"

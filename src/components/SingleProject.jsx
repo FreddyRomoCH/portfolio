@@ -27,16 +27,16 @@ export function SingleProject() {
     // <div className="relative grid grid-rows-[auto_1fr_auto] justify-center min-h-screen gap-7">
     <section className="col-span-9 md:text-center px-4 lg:px-32 my-20">
       <div className="flex flex-col max-w-[1024px] text-center mx-auto gap-7">
-        <h1 className="font-typewriter font-medium text-2xl md:text-5xl">
-          {title}
-        </h1>
+        <h1 className="font-inter font-medium text-2xl md:text-5xl">{title}</h1>
         <picture>
           <img className="rounded-md object-cover" src={image} alt={title} />
         </picture>
         <ul className="flex flex-rown flex-wrap justify-center gap-3">
           {techs}
         </ul>
-        <p className="font-inter font-thin text-base">{description}</p>
+        <p className="font-inter font-thin text-base text-neutral50">
+          {description}
+        </p>
         <a
           className="bg-primary500 hover:bg-primary600 text-neutral50 w-auto px-4 py-2 rounded-md text-lg"
           href={url}

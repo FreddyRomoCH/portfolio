@@ -8,8 +8,8 @@ export function Home() {
         <div className="grow flex flex-col justify-center items-center text-center">
           <typing-effect
             data-lines={JSON.stringify([
-              "- Hi! My name is Freddy.",
-              "- I'm a Web Developer.",
+              "- Frontend Web Developer.",
+              "- React | TypeScript | TailwindCSS.",
             ])}
           >
             <span
@@ -25,7 +25,7 @@ export function Home() {
             to="/projects"
             className="text-neutral50 px-7 w-auto bg-primary400 hover:bg-primary500 py-2 2xl:py-3 rounded mt-5"
           >
-            Check out my projects
+            View projects
           </Link>
         </div>
 

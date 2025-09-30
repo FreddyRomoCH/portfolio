@@ -30,7 +30,7 @@ export function Projects() {
     <section className="md:col-span-9 text-center px-4 lg:px-32 my-8">
       <h2
         id="projects"
-        className="text-2xl font-medium md:text-4xl 2xl:text-5xl text-neutral50 text-center md:leading-[3.5rem] mb-5 font-typewriter"
+        className="text-2xl font-medium md:text-4xl 2xl:text-5xl text-neutral50 text-center md:leading-[3.5rem] mb-5 font-inter"
       >
         {isAllProjects ? "Projects" : "Latest Projects"}
       </h2>
@@ -44,7 +44,7 @@ export function Projects() {
           onClick={handleAllProjects}
           className="bg-primary500 hover:bg-primary600 rounded-[4px] text-neutral50 px-4 py-2"
         >
-          See more Projects
+          See more projects
         </button>
       )}
     </section>

@@ -10,15 +10,16 @@ export function About() {
   return (
     <>
       <section className="md:col-span-9 md:text-center px-4 lg:px-10 my-8">
-        <h2 className="text-2xl font-medium md:text-4xl 2xl:text-5xl text-neutral50 text-center md:leading-[3.5rem] mb-5 font-typewriter">
+        <h2 className="text-2xl font-medium md:text-4xl 2xl:text-5xl text-neutral50 text-center md:leading-[3.5rem] mb-5 font-inter">
           About me
         </h2>
         <p className="text-sm md:text-lg font-inter font-extralight text-neutral50 text-center md:text-left mb-8">
-          Hi! My name is Freddy Romo and I am a Web Developer with more than 4
-          years of working experience. I am passionated building web sites using
-          different technologies. Spanish is my native language but I am also
-          fluent in English. Currently learning new technologies like ReactJS,
-          TailwindCSS, Astro and more.
+          I’m a frontend developer with previous mid-level experience. After a
+          break from the industry, I’ve been updating my skills by building
+          projects with React, Astro, TypeScript, TailwindCSS and Supabase. I’ve
+          worked on features like user login, cloud databases and deployments.
+          Now I’m looking to re-enter the market as a mid-level developer,
+          bringing both past experience and new knowledge.
         </p>
         <ul className="flex flex-col md:flex-row justify-between gap-4 mb-8">
           {experience.map((exp) => (

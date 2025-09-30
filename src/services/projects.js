@@ -11,13 +11,13 @@ export const projects = [
     },
     {
         id: 2,
-        title: "My Recipes",
-        shortDescription: "Web Site to store recipes (Still in progress).",
-        description: "Web Site built with React to store recipes. It uses React Router to navigate between pages and TailwindCSS for styling. It connects to a back-end with NodeJS and to Supabase database to storage and manage all users and recipes created.",
-        image: "/images/projects/my-recipes.png",
-        url: "https://recipes.freddyromo.dev/",
-        technologies: ["React", "TailwindCSS", "React Router", "UseContext", "API Fetch"],
-        gitHub: "https://github.com/FreddyRomoCH/my-own-recipes"
+        title: "TO-DO list Vanilla JS",
+        shortDescription: "Simple TO-DO list built with Vanilla JS.",
+        description: "Simple TO-DO list built with Vanilla JS. It uses LocalStorage to store the tasks and allows to add, delete and mark tasks as completed.",
+        image: "/images/projects/todo-vanilla-js.png",
+        url: "https://todo-list-vanillajs.freddyromo.dev/",
+        technologies: ["JavaScript", "HTML", "CSS", "LocalStorage"],
+        gitHub: "https://github.com/FreddyRomoCH/todo-list-vanilla-js"
     },
     {
         id: 3,
@@ -31,12 +31,12 @@ export const projects = [
     },
     {
         id: 4,
-        title: "TO-DO list Vanilla JS",
-        shortDescription: "Simple TO-DO list built with Vanilla JS.",
-        description: "Simple TO-DO list built with Vanilla JS. It uses LocalStorage to store the tasks and allows to add, delete and mark tasks as completed.",
-        image: "/images/projects/todo-vanilla-js.png",
-        url: "https://todo-list-vanillajs.freddyromo.dev/",
-        technologies: ["JavaScript", "HTML", "CSS", "LocalStorage"],
-        gitHub: "https://github.com/FreddyRomoCH/todo-list-vanilla-js"
+        title: "My Recipes",
+        shortDescription: "Recipe management app with Supabase authentication and database.",
+        description: "A web application where users can register, log in and manage their own recipes. Built with React and TailwindCSS, using React Router for navigation. It includes a Node.js backend hosted on Render, connected to a Supabase PostgreSQL database for authentication and data storage. Deployed on Render.",
+        image: "/images/projects/my-recipes.png",
+        url: "https://recipes.freddyromo.dev/",
+        technologies: ["React (JavaScript)", "TailwindCSS", "Supabase", "Node.js", "React Router"],
+        gitHub: "https://github.com/FreddyRomoCH/my-recipes"
     }
 ]

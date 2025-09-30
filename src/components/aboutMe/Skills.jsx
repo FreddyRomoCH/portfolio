@@ -10,7 +10,7 @@ export function Skills({ title }) {
 
   return (
     <div>
-      <h3 className="font-normal text-base md:text-2xl xl:text-3xl text-center mb-4 font-typewriter">
+      <h3 className="font-normal text-base md:text-2xl xl:text-3xl text-center mb-4 font-inter">
         {title}
       </h3>
       <ul className="text-primary500 flex flex-row gap-2 flex-wrap items-center justify-center mb-6 font-inter px-1">
