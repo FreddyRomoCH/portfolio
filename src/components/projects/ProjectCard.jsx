@@ -5,16 +5,16 @@ export function ProjectCard({ title, description, image, id }) {
   const link = `/my-projects/${id}/${nameLink}`;
 
   return (
-    <div className="bg-secondary900 rounded-lg flex flex-col p-6 gap-4 items-center justify-between">
+    <div className="bg-secondary900 rounded-lg flex flex-col p-6 gap-4 items-center justify-between h-full">
       <picture>
         <img
-          className="h-64 object-cover"
+          className="h-64 object-cover flex-1 "
           src={image}
           alt="Project Cover Image"
         />
       </picture>
-      <h2 className="text-xl lg:text-2xl font-inter font-semibold">{title}</h2>
-      <p className="font-inter font-thin text-base text-center text-neutral50">
+      <h2 className=" text-xl lg:text-2xl font-inter font-semibold">{title}</h2>
+      <p className="font-inter font-normal text-base text-center text-neutral50">
         {description}
       </p>
       <Link

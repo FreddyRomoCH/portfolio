@@ -1,32 +1,32 @@
 export const projects = [
     {
         id: 1,
-        title: "Metallica Fanpage",
-        shortDescription: "Fanpage of the band Metallica.",
-        description: "Fanpage of the band Metallica. It uses Astro to generate static pages and React to create dinamics components. It fetches data from the Spotify, SetlistFM and LastFM APIs to show the albums and songs and latest live concerts of the band.",
+        title: "Metallica Fan Site",
+        shortDescription: "Fan site built with Astro and React, integrating multiple music APIs.",
+        description: "A fan site dedicated to Metallica, built with Astro for static site generation and React for dynamic components. It consumes data from Spotify, SetlistFM, and LastFM APIs to display albums, songs, and the latest concert setlists. Styled with TailwindCSS and deployed to production.",
         image: "/images/projects/metallica.png",
         url: "https://metallica.freddyromo.dev/",
-        technologies: ["Astro", "React", "TailwindCSS", "API Fetch"],
+        technologies: ["Astro", "React", "TailwindCSS"],
         gitHub: "https://github.com/FreddyRomoCH/metallica"
     },
     {
         id: 2,
         title: "TO-DO list Vanilla JS",
-        shortDescription: "Simple TO-DO list built with Vanilla JS.",
-        description: "Simple TO-DO list built with Vanilla JS. It uses LocalStorage to store the tasks and allows to add, delete and mark tasks as completed.",
+        shortDescription: "Task management app built with Vanilla JavaScript.",
+        description: "A small web application to manage daily tasks. Built with JavaScript, HTML and CSS, using LocalStorage to persist data. Users can add new tasks, delete them, and mark them as completed.",
         image: "/images/projects/todo-vanilla-js.png",
         url: "https://todo-list-vanillajs.freddyromo.dev/",
-        technologies: ["JavaScript", "HTML", "CSS", "LocalStorage"],
+        technologies: ["JavaScript", "HTML", "CSS"],
         gitHub: "https://github.com/FreddyRomoCH/todo-list-vanilla-js"
     },
     {
         id: 3,
         title: "Guess Who",
-        shortDescription: "Boardgame of guessing the character.",
-        description: "Classic bordgame of guessing the character. Built with React and TailwindCSS. It uses UseContext to manage the state of the game.",
+        shortDescription: "Digital version of the classic character guessing board game.",
+        description: "A React-based web version of the classic 'Guess Who?' board game. Styled with TailwindCSS and using React Context API for state management.",
         image: "/images/projects/guess-who.png",
         url: "https://guesswho.freddyromo.dev/",
-        technologies: ["React", "TailwindCSS", "UseContext"],
+        technologies: ["React", "TailwindCSS", "Context API"],
         gitHub: "https://github.com/FreddyRomoCH/Guess-Who-BoardGame"
     },
     {
@@ -38,5 +38,15 @@ export const projects = [
         url: "https://recipes.freddyromo.dev/",
         technologies: ["React (JavaScript)", "TailwindCSS", "Supabase", "Node.js", "React Router"],
         gitHub: "https://github.com/FreddyRomoCH/my-recipes"
+    },
+    {
+        id: 5,
+        title: "Travel Blog (Headless)",
+        shortDescription: "Headless blog using WordPress as CMS and Astro for the frontend (currently local development).",
+        description: "A personal travel blog built with a headless architecture. WordPress is used as the CMS for content management, while Astro with TypeScript and TailwindCSS powers the frontend. The project focuses on fast builds, SEO, and a clean authoring workflow. Currently in local development, with plans to deploy to production.",
+        image: "/images/projects/travel-blog.png",
+        url: "", // leave empty until deployed
+        technologies: ["Astro", "TypeScript", "TailwindCSS", "WordPress (Headless)"],
+        gitHub: "https://github.com/FreddyRomoCH/travel-blog"
     }
 ]

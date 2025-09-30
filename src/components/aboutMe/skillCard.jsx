@@ -8,7 +8,7 @@ export function SkillCard({ skill, image }) {
       )}
 
       {skill ? (
-        <p className="text-primary500 font-inter text-center text-xs font-thin">
+        <p className="text-primary500 font-inter text-center text-xs font-normal">
           {skill}
         </p>
       ) : (

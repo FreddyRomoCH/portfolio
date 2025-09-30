@@ -34,16 +34,18 @@ export function SingleProject() {
         <ul className="flex flex-rown flex-wrap justify-center gap-3">
           {techs}
         </ul>
-        <p className="font-inter font-thin text-base text-neutral50">
+        <p className="font-inter font-normal text-base text-neutral50">
           {description}
         </p>
-        <a
-          className="bg-primary500 hover:bg-primary600 text-neutral50 w-auto px-4 py-2 rounded-md text-lg"
-          href={url}
-          target="_blank"
-        >
-          <p className="font-inter font-medium text-base">Visit Site</p>
-        </a>
+        {url && (
+          <a
+            className="bg-primary500 hover:bg-primary600 text-neutral50 w-auto px-4 py-2 rounded-md text-lg"
+            href={url}
+            target="_blank"
+          >
+            <p className="font-inter font-medium text-base">Visit Site</p>
+          </a>
+        )}
         <a
           href={gitHub}
           target="_blank"

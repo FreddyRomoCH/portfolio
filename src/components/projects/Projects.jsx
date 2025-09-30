@@ -42,7 +42,7 @@ export function Projects() {
       {!isAllProjects && (
         <button
           onClick={handleAllProjects}
-          className="bg-primary500 hover:bg-primary600 rounded-[4px] text-neutral50 px-4 py-2"
+          className="bg-primary500 hover:bg-primary600 rounded-[4px] text-neutral50 px-4 py-2 cursor-pointer"
         >
           See more projects
         </button>
