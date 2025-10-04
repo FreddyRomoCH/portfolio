@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import { SingleProject } from "./components/SingleProject";
 import { Aside } from "./components/Aside";
 import { Projects } from "./components/projects/Projects";
+import { NotFound } from "./components/404/NotFound";
 
 import "./App.css";
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/my-projects/:id/:name" element={<SingleProject />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </>
