@@ -42,10 +42,10 @@ export const projects = [
     {
         id: 5,
         title: "Travel Blog (Headless)",
-        shortDescription: "Headless blog using WordPress as CMS and Astro for the frontend (currently local development).",
-        description: "A personal travel blog built with a headless architecture. WordPress is used as the CMS for content management, while Astro with TypeScript and TailwindCSS powers the frontend. The project focuses on fast builds, SEO, and a clean authoring workflow. Currently in local development, with plans to deploy to production.",
+        shortDescription: "Headless blog using WordPress as CMS and Astro for the frontend.",
+        description: "A personal travel blog built with a headless architecture. WordPress is used as the CMS for content management, while Astro with TypeScript and TailwindCSS powers the frontend. The project focuses on fast builds, SEO, and a clean authoring workflow.",
         image: "/images/projects/travel-blog.png",
-        url: "", // leave empty until deployed
+        url: "https://travelblog.freddyromo.dev/",
         technologies: ["Astro", "TypeScript", "TailwindCSS", "WordPress (Headless)"],
         gitHub: "https://github.com/FreddyRomoCH/travel-blog"
     }
