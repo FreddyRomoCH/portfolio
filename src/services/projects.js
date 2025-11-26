@@ -1,24 +1,24 @@
 export const projects = [
-    {
-        id: 1,
-        title: "Metallica Fan Site",
-        shortDescription: "Fan site built with Astro and React, integrating multiple music APIs.",
-        description: "A fan site dedicated to Metallica, built with Astro for static site generation and React for dynamic components. It consumes data from Spotify, SetlistFM, and LastFM APIs to display albums, songs, and the latest concert setlists. Styled with TailwindCSS and deployed to production.",
-        image: "/images/projects/metallica.png",
-        url: "https://metallica.freddyromo.dev/",
-        technologies: ["Astro", "React", "TailwindCSS"],
-        gitHub: "https://github.com/FreddyRomoCH/metallica"
-    },
-    {
-        id: 2,
-        title: "TO-DO list Vanilla JS",
-        shortDescription: "Task management app built with Vanilla JavaScript.",
-        description: "A small web application to manage daily tasks. Built with JavaScript, HTML and CSS, using LocalStorage to persist data. Users can add new tasks, delete them, and mark them as completed.",
-        image: "/images/projects/todo-vanilla-js.png",
-        url: "https://todo-list-vanillajs.freddyromo.dev/",
-        technologies: ["JavaScript", "HTML", "CSS"],
-        gitHub: "https://github.com/FreddyRomoCH/todo-list-vanilla-js"
-    },
+    // {
+    //     id: 1,
+    //     title: "Metallica Fan Site",
+    //     shortDescription: "Fan site built with Astro and React, integrating multiple music APIs.",
+    //     description: "A fan site dedicated to Metallica, built with Astro for static site generation and React for dynamic components. It consumes data from Spotify, SetlistFM, and LastFM APIs to display albums, songs, and the latest concert setlists. Styled with TailwindCSS and deployed to production.",
+    //     image: "/images/projects/metallica.png",
+    //     url: "https://metallica.freddyromo.dev/",
+    //     technologies: ["Astro", "React", "TailwindCSS"],
+    //     gitHub: "https://github.com/FreddyRomoCH/metallica"
+    // },
+    // {
+    //     id: 2,
+    //     title: "TO-DO list Vanilla JS",
+    //     shortDescription: "Task management app built with Vanilla JavaScript.",
+    //     description: "A small web application to manage daily tasks. Built with JavaScript, HTML and CSS, using LocalStorage to persist data. Users can add new tasks, delete them, and mark them as completed.",
+    //     image: "/images/projects/todo-vanilla-js.png",
+    //     url: "https://todo-list-vanillajs.freddyromo.dev/",
+    //     technologies: ["JavaScript", "HTML", "CSS"],
+    //     gitHub: "https://github.com/FreddyRomoCH/todo-list-vanilla-js"
+    // },
     {
         id: 3,
         title: "Guess Who",
@@ -48,5 +48,16 @@ export const projects = [
         url: "https://travelblog.freddyromo.dev/",
         technologies: ["Astro", "TypeScript", "TailwindCSS", "WordPress (Headless)"],
         gitHub: "https://github.com/FreddyRomoCH/travel-blog"
+    },
+    {
+        id: 6,
+        title: "SaaS Admin Panel",
+        shortDescription: "A SaaS-style admin panel for managing projects, clients, and payments.",
+        description: "A practice-focused SaaS-style admin panel built with a real-world architecture approach. Developed using React and TailwindCSS, with Zustand for global state management and Supabase handling authentication, database, and storage. The project includes complete modules for managing projects, clients, and payments, with Zod-based validation, protected routes, and a clean internal API layer decoupled from the UI. Designed as a realistic training environment following professional development standards.",
+        image: "/images/projects/admin-panel.png",
+        url: "https://admin.freddyromo.dev/",
+        technologies: ["React", "TypeScript", "TailwindCSS", "Zustand", "Supabase", "Zod"],
+        gitHub: "https://github.com/FreddyRomoCH/admin-panel"
     }
+
 ]
